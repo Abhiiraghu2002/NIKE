@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    background: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cardbox3{
+    width:220px;
+    height: 280px;
+    margin-left: 1rem;
+    background: rgb(255, 255, 255);
+    border-radius: 10px;
+}
+.cardbox3 img{
+    width: 220px;
+    padding: 30px;
+    transform: rotate(-35deg);   
+}
+.cardimg3{
+    width: 220px;
+    height: 140px;
+    background: pink;
+    align-items: center;
+    border-radius: 10px;
+}
+.cardbox3 p span{
+    padding: 20px;
+    margin-top: 1rem;
+    color: black;
+    text-decoration: line-through;
+}
+.cardbox3 p{
+    color: red;
+    margin-left: 3rem;
+    margin-top: 1rem;
+}
+.cardbox3 h1{
+    margin-left: 3rem;
+}
+.cardbox3 button{
+    padding: 10px 25px;
+    background: lightblue;
+    border: none;
+    border-radius: 20px;
+    margin-left: 3rem;
+    font-size: 1.1rem;
+    margin-top: 1rem;
+}
